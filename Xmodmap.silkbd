@@ -6,7 +6,7 @@
 !
 
 ! All the way left
-keycode  49 = grave asciitilde grave asciitilde dead_tilde dead_grave
+keycode  49 = grave asciitilde grave asciitilde dead_grave dead_tilde 
 
 ! Number and symbol row
 keycode  10 = 1 exclam      1 exclam      exclamdown asciitilde

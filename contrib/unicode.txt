@@ -1,4 +1,8 @@
-﻿ꞌ UA78C (saltillo)
+﻿#
+# This file contains the unicode code points for various characters.
+#
+
+ꞌ UA78C (saltillo)
 
 ɓ U0253 U0181
 ç U00E7 U00C7
