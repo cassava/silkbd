@@ -1,0 +1,10 @@
+#!/bin/sh
+# load-silkbd
+
+# The following lines will load the silkbd layout.
+#
+# Note: For some reason, the 3rd and 4th level keys do not work if we do not
+# load the 'altgr-intl' variant (or some variant that has 3rd level keys.)
+#
+setxkbmap -layout us -variant altgr-intl -option lv3:ralt_switch
+xmodmap Xmodmap.silkbd
