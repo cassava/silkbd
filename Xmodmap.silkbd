@@ -1,0 +1,67 @@
+! vim: set ft=xmodmap:
+! Xmodmap.silkbd
+!
+! Copyright (c) 2014 Ben Morgan
+! Released under the MIT license.
+!
+
+! All the way left
+keycode  49 = grave asciitilde grave asciitilde dead_tilde dead_grave
+
+! Number and symbol row
+keycode  10 = 1 exclam      1 exclam      exclamdown asciitilde
+keycode  11 = 2 at          2 at
+keycode  12 = 3 numbersign  3 numbersign
+keycode  13 = 4 dollar      4 dollar      sterling asciitilde
+keycode  14 = 5 percent     5 percent     EuroSign asciitilde
+keycode  15 = 6 asciicircum 6 asciicircum dead_circumflex asciitilde
+keycode  16 = 7 ampersand   7 ampersand
+keycode  17 = 8 asterisk    8 asterisk    U201A U201E
+keycode  18 = 9 parenleft   9 parenleft   leftsinglequotemark leftdoublequotemark
+keycode  19 = 0 parenright  0 parenright  rightsinglequotemark rightdoublequotemark
+keycode  20 = minus underscore minus underscore endash emdash
+keycode  21 = equal plus       equal plus
+
+! Top row
+keycode  24 = q Q q Q U00E4 U00C4
+keycode  25 = w W w W U00EB U00CB
+keycode  26 = e E e E U00E9 U00C9
+keycode  27 = r R r R
+keycode  28 = t T t T
+keycode  29 = y Y y Y U01B4 U01B3
+keycode  30 = u U u U U00FA U00DA
+keycode  31 = i I i I U00ED U00CD
+keycode  32 = o O o O U00F3 U00D3
+keycode  33 = p P p P U00F6 U00D6
+keycode  34 = bracketleft braceleft bracketleft braceleft guillemotleft U2039
+keycode  35 = bracketright braceright bracketright braceright guillemotright U203A
+keycode  51 = backslash    bar        backslash    bar
+
+! Middle row
+keycode  38 = a A a A U00E1 U00C1
+keycode  39 = s S s S U00DF asciitilde
+keycode  40 = d D d D U0257 U018A
+keycode  41 = f F f F
+keycode  42 = g G g G dead_grave asciitilde
+keycode  43 = h H h H dead_circumflex asciitilde
+keycode  44 = j J j J dead_macron asciitilde
+keycode  45 = k K k K dead_acute asciitilde
+keycode  46 = l L l L U00FC U00DC
+keycode  47 = semicolon  colon    semicolon  colon    dead_diaeresis asciitilde
+keycode  48 = apostrophe quotedbl apostrophe quotedbl UA78B UA78C
+
+! Bottom row
+keycode  52 = z Z z Z U00E6 U00C6
+keycode  53 = x X x X
+keycode  54 = c C c C U00E7 U00C7
+keycode  55 = v V v V
+keycode  56 = b B b B U0253 U0181
+keycode  57 = n N n N U014B U014A
+keycode  58 = m M m M U0153 U0152
+keycode  59 = comma  less     comma  less     dead_cedilla asciitilde
+keycode  60 = period greater  period greater  dead_abovedot asciitilde
+keycode  61 = slash  question slash  question questiondown asciitilde
+
+! Special
+keycode  65 = space space space space nobreakspace nobreakspace
+keycode 108 = ISO_Level3_Shift ISO_Level3_Shift
